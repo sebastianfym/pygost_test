@@ -1,0 +1,12 @@
+Я использую pygost == 5.11 (https://github.com/GekaTLT/pygost5.11?tab=readme-ov-file), так же я использовал другие версии PyGost.
+
+Логи и принты:
+Алгоритм дайджеста: 1.2.643.7.1.1.2.2
+pub::: (7108946249734406621808242280097185404021388753172764543940127071123218684133380, 17381026512375398961657382208714475450868690771236854403992641989073925152858350)
+dgst::: b'\xbd\xa0J\xe7[\xe6\x08]\x9div{\xdd\x96\xd8\x8c\x96\xd0\x8bj\xbe\xb3\xab9$u^\xc1\x86\xf2\xd2\xf6'
+dgst (hex): bda04ae75be6085d9d69767bdd96d88c96d08b6abeb3ab3924755ec186f2d2f6
+curve::: <GOST3410Curve: id-tc26-gost-3410-2012-256-paramSetA>
+signature::: b'\xa0Y\xac\xcdV,\xa5\xc9\xf0\x080u\xa9jo\xf5{\x92\xae\xde\xd1>\xb6\xe3\xeb\x13_\xb0\x0f\xf2\xc9\x05\x88_<$\\v\xcb\x04\x137\xc3~\x05\x0e\x13\xfd\x7f\t\x18\xc1\x16\x1as|G\xa1\xd1\x92\xfbW\xb9\xb1'
+signature (hex): a059accd562ca5c9f0083075a96a6ff57b92aeded13eb6e3eb135fb00ff2c905885f3c245c76cb041337c37e050e13fd7f0918c1161a737c47a1d192fb57b9b1
+signature_for_verify (hex): 885f3c245c76cb041337c37e050e13fd7f0918c1161a737c47a1d192fb57b9b1a059accd562ca5c9f0083075a96a6ff57b92aeded13eb6e3eb135fb00ff2c905
+Подпись верна: False
